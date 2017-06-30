@@ -1,0 +1,29 @@
+#wrapper{
+	background-color: yellow;
+	height: 60px;
+	margin: 5%;
+}
+@media only screen and (min-width: 480px){
+	#wrapper{
+		background-color: red;
+	}
+	p{
+		color: yellow;
+	}
+}
+@media only screen and (min-width: 768px){
+	#wrapper{
+		background-color: aqua;
+	}
+	p{
+		color: red;
+	}
+} 
+@media only screen and (min-width: 1023px){
+	#wrapper{
+		background-color: orange;
+	}
+	p{
+		color: blue;
+	}
+} 

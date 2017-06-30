@@ -1,0 +1,39 @@
+nav{
+	display: inline;
+}
+nav ul{
+	list-style: none;
+	text-align: left;
+	display: inline;
+	padding: 15px 4px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+nav ul li{
+	display: inline-block;
+	padding: 15px 20px;
+	background-color: tan; 
+	position: relative;
+	margin-right: -4px;
+}
+nav ul li ul{
+	position: absolute;
+	top: 48px;
+	left: 0px;
+	background-color: tan;
+	display: none;
+}
+nav ul li:nth-child(3){
+	padding-right: 45px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+nav ul li:hover{
+	background-color: white;
+}
